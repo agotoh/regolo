@@ -8,7 +8,7 @@
     <meta property="og:title" content="東京を中心に関東で営業中！お家のメンテナンス・リフォーム・原状回復の工事はリゴロにお任せください。" />
 		<meta property="og:description" content="ご自宅の内装やトイレなどの水まわりのリフォーム雨漏れや外壁改修まで幅広い対応が可能です。リノベーションはお客様のニーズにあった最適なご提案をいたします。" />
     <meta name="robots" content="noindex" />
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/regolo_favicon-Be6Nb3RU.ico" sizes="32x32">
+    <link rel="icon" href="/assets/regolo_favicon-Be6Nb3RU.ico" sizes="32x32">
     <link rel="stylesheet" href="https://use.typekit.net/ipa8xsu.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LYCFD1NZM"></script>
@@ -20,13 +20,15 @@
       gtag('config', 'G-6LYCFD1NZM');
     </script>
     <!-- Google tag (gtag.js)ここまで -->
-    <?php wp_head(); ?>
+    <script type="module" crossorigin src="/assets/main-B7oO6B-m.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-ClUZCVi3.css">
+  <?php wp_head(); ?>
   </head>
   <body>
     <div class="container-fluid headerContainer">
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid px-0">
-          <a class="navbar-brand" href="./index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/jp_logo_yoko-CpS2ziNQ.svg" alt="Logo" height="56" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="./index.html"><img src="/assets/jp_logo_yoko-CpS2ziNQ.svg" alt="Logo" height="56" class="d-inline-block align-text-top"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
