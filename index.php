@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="container-fluid eyeCatchArea d-flex justify-content-center mx-0 px-0">
       <div class="d-flex justify-content-center eyeCatchImageContainer">
-        <img class="pcKeyVisualImage img-fluid d-none d-md-block" src="/assets/pc_kv-BVP38sPa.png" alt="キービジュアル">
-        <img class="spKeyVisualImage img-fluid d-block d-md-none" src="/assets/sp_kv-LbL-2sol.png" alt="キービジュアル">
+        <img class="pcKeyVisualImage img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/pc_kv-BVP38sPa.png" alt="キービジュアル">
+        <img class="spKeyVisualImage img-fluid d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/sp_kv-LbL-2sol.png" alt="キービジュアル">
       </div>
     </div>
     <div class="container-fluid eyeCatchMarginContainer"></div>
@@ -18,11 +18,11 @@
           <div class="row mb-5">
             <div class="col-12 d-flex justify-content-center">
               <img class="pcIntroImage img-fluid d-none d-md-block"
-              src="/assets/pc_illust_intro-Dk1bPJRI.png"
+              src="<?php echo get_template_directory_uri();?>/assets/pc_illust_intro-Dk1bPJRI.png"
               alt="Intro"
               />
               <img class="spIntroImage img-fluid d-block d-md-none"
-              src="/assets/sp_illust_intro-VAdnkbv0.png"
+              src="<?php echo get_template_directory_uri();?>/assets/sp_illust_intro-VAdnkbv0.png"
               alt="Intro"
               />
             </div>
@@ -32,8 +32,8 @@
             <div class="col-md-8 mainVisualContext">
               <div class="mainVisualContext__box">
                 <img class="mainVisualContextLightImg" src="data:image/png;base64,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" alt="" width="60px">
-                <img class="mainVisualContextPeopleImg d-none d-md-block" src="/assets/illust_people-AW6r3p5u.png" alt="" width="170px">
-                <img class="mainVisualContextPeopleImg d-block d-md-none" src="/assets/illust_people-AW6r3p5u.png" alt="" width="100px">
+                <img class="mainVisualContextPeopleImg d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/illust_people-AW6r3p5u.png" alt="" width="170px">
+                <img class="mainVisualContextPeopleImg d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/illust_people-AW6r3p5u.png" alt="" width="100px">
                 <p class="mb-0">ちょっとした事でお悩みではありませんか？<br/>そんなお困りごとを解消して快適な暮らしを<br/>提供するお手伝いをします。</p>
               </div>
             </div>
@@ -43,21 +43,21 @@
         <div class="container-fluid footerImgContainer"></div>
       </div>
       <div class="businessServices container-fluid px-0 mt-5">
-        <img class="businessServices__birdImgPc d-none d-md-block" src="/assets/illust_bird1-BI0kJgdq.png" width="150px">
+        <img class="businessServices__birdImgPc d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/illust_bird1-BI0kJgdq.png" width="150px">
         <div class="bussinessServiceContainer container-xxl">
           <div class="businessServices__title text-center">
             <h2 class="titleText__japaneseImg">
               <img
-                src="/assets/h2_business-Bfl9pHK9.png"
+                src="<?php echo get_template_directory_uri();?>/assets/h2_business-Bfl9pHK9.png"
                 alt="主な事業内容"
               /></h2>
             <p class="titleText__english">Business Services</p>
           </div>
-          <div class="row justify-content-center"><img class="businessServices__birdImgSp d-block d-md-none" src="/assets/illust_bird1-BI0kJgdq.png"></div>
+          <div class="row justify-content-center"><img class="businessServices__birdImgSp d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/illust_bird1-BI0kJgdq.png"></div>
           <div class="row">
             <div class="col-md-4 my-4">
               <div class="card flex-fill h-100">
-                <img src="/assets/business_pic1-CbFVi1WP.png" class="cardImage card-img-top" alt="img1">
+                <img src="<?php echo get_template_directory_uri();?>/assets/business_pic1-CbFVi1WP.png" class="cardImage card-img-top" alt="img1">
                 <div class="card-body d-flex flex-column">
                   <h3 class="card-title text-center">原状回復</h3>
                   <p class="card-text flex-grow-1">退去後のお部屋を次の方に貸し出すためにお部屋を綺麗にします。
@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-4 my-4">
               <div class="card flex-fill h-100">
-                <img src="/assets/business_pic2-BN98Sd22.png" class="cardImage card-img-top" alt="img2">
+                <img src="<?php echo get_template_directory_uri();?>/assets/business_pic2-BN98Sd22.png" class="cardImage card-img-top" alt="img2">
                 <div class="card-body d-flex flex-column">
                   <h3 class="card-title text-center">リフォーム・リノベーション</h3>
                   <p class="card-text flex-grow-1">お客様のご要望やニーズに合わせてご自宅の改修・改装計画をご提案いたします。
@@ -77,7 +77,7 @@
             </div>
             <div class="col-md-4 my-4">
               <div class="card flex-fill h-100">
-                <img src="/assets/business_pic3-Dv6TMRG6.png" class="cardImage card-img-top" alt="img3">
+                <img src="<?php echo get_template_directory_uri();?>/assets/business_pic3-Dv6TMRG6.png" class="cardImage card-img-top" alt="img3">
                 <div class="card-body d-flex flex-column">
                   <h3 class="card-title text-center">メンテナンス</h3>
                   <p class="card-text flex-grow-1">設備や機器の点検や清掃、補修など幅広く対応いたします。
@@ -91,7 +91,7 @@
       <div class="renovationCasesParentContainer">
         <div class="container-fluid renovationCasesContainer">
           <div class="renovationCases__birdContainer d-flex justify-content-center">
-            <img class="renovationCases__birdImg" src="/assets/illust_bird2-B5T976jY.png">
+            <img class="renovationCases__birdImg" src="<?php echo get_template_directory_uri();?>/assets/illust_bird2-B5T976jY.png">
           </div>
           <div class="renovationCases">
             <div class="renovationCases__title text-center">
@@ -106,7 +106,7 @@
               <div class="row">
                 <div class="col-md-4 my-4">
                   <div class="card flex-fill h-100">
-                    <img src="/assets/renovation_pic1-Bwrexq8S.png" class="cardImage card-img-top" alt="img1">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/renovation_pic1-Bwrexq8S.png" class="cardImage card-img-top" alt="img1">
                     <div class="card-body d-flex flex-column pt-0">
                       <div class="row renovationCasesCard">
                         <div class="d-flex justify-content-center align-items-center mx-auto text-center">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="col-md-4 my-4">
                   <div class="card flex-fill h-100">
-                    <img src="/assets/renovation_pic2-CJUEkKsx.png" class="cardImage card-img-top" alt="img2">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/renovation_pic2-CJUEkKsx.png" class="cardImage card-img-top" alt="img2">
                     <div class="card-body d-flex flex-column pt-0">
                       <div class="row renovationCasesCard">
                         <div class="d-flex justify-content-center align-items-center mx-auto">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-md-4 my-4">
                   <div class="card flex-fill h-100">
-                    <img src="/assets/renovation_pic3-DEdsC-TY.png" class="cardImage card-img-top" alt="img3">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/renovation_pic3-DEdsC-TY.png" class="cardImage card-img-top" alt="img3">
                     <div class="card-body d-flex flex-column pt-0">
                       <div class="row renovationCasesCard">
                         <div class="d-flex justify-content-center align-items-center mx-auto">
@@ -150,14 +150,14 @@
         </div>
       </div>
       <div class="renovationCases__bottomBirdContainer">
-        <img class="renovationCases__bottomBirdImg" src="/assets/illust_bird3-CZGd5Hqk.png">
+        <img class="renovationCases__bottomBirdImg" src="<?php echo get_template_directory_uri();?>/assets/illust_bird3-CZGd5Hqk.png">
       </div>
     
       <div class="container-fluid announcementsContainer container-xxl">
         <div class="announcements__title text-center">
           <h2 class="titleText__japaneseImg">
             <img
-              src="/assets/h2_announcements-CVzbPtAY.png"
+              src="<?php echo get_template_directory_uri();?>/assets/h2_announcements-CVzbPtAY.png"
               alt="お知らせ"
             />
           </h2>
@@ -192,7 +192,7 @@
         <div class="indexInquires__title text-center">
           <h2 class="titleText__japaneseImg">
             <img
-              src="/assets/h2_inquiries-C2Vs2DDB.png"
+              src="<?php echo get_template_directory_uri();?>/assets/h2_inquiries-C2Vs2DDB.png"
               alt="リフォームメニュー例"
             /></h2>
           <p class="titleText__english">Inquires</p>
@@ -205,8 +205,8 @@
             <a href="inquires.html" class="btn btn-primary py-3 col-md-5" type="submit">お問い合わせはこちら</a>
           </div>
           <div class="indexInquires__birdImgContaier">
-            <img class="indexInquires__birdImgPc d-none d-md-block" src="/assets/illust_bird4-C29D7HLC.png">
-            <img class="indexInquires__birdImgSp d-block d-md-none" src="/assets/illust_bird4-C29D7HLC.png">
+            <img class="indexInquires__birdImgPc d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/illust_bird4-C29D7HLC.png">
+            <img class="indexInquires__birdImgSp d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/illust_bird4-C29D7HLC.png">
           </div>
         </div>
       </div>

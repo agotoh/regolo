@@ -2,7 +2,7 @@
   <div class="container-xxl footerContentsContainer">
     <div class="row">
       <div class="col-md-6">
-        <a class="footerLogo" href="./index.html"><img src="/assets/jp_logo_yoko_white-h-w6PNhZ.svg" alt="Logo"
+        <a class="footerLogo" href="./index.html"><img src="<?php echo get_template_directory_uri();?>/assets/jp_logo_yoko_white-h-w6PNhZ.svg" alt="Logo"
             height="56" class="d-inline-block align-text-top"></a>
       </div>
       <div class="col-md-6 d-none d-md-flex justify-content-end">
