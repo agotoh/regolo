@@ -172,18 +172,26 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row" class="fw-medium">8月1日</th>
-                <td>リゴロ株式会社を設立しました。</td>
-              </tr>
-              <tr>
-                <th scope="row" class="fw-medium">8月1日</th>
-                <td>リゴロ株式会社を設立しました。</td>
-              </tr>
-              <tr>
-                <th scope="row" class="fw-medium">8月1日</th>
-                <td>文字が長く文章が折りかえす場合のテスト表示。文字が長く文章が折りかえす場合のテスト表示。文字が長く文章が折りかえす場合のテスト表示。</td>
-              </tr>
+            <?php 
+              $args = array( 
+                'posts_per_page' => 3,
+                'post_type' => 'post',
+                'category_name' => 'announcements',
+                'orderby' => 'date', 
+                'order' => 'DESC',
+              );
+
+              $the_query = get_posts( $args );
+              foreach ( $the_query as $post ) : setup_postdata( $post ); 
+              ?>
+                <tr>
+                  <th scope="row" class="fw-medium"><?php the_time('n月j日');?></th>
+                  <td><?php echo get_the_content(); ?></td>
+                </tr>
+              <?php
+              endforeach; 
+              wp_reset_postdata();
+              ?>
             </tbody>
           </table>
         </div>

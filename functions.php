@@ -17,3 +17,9 @@ function st_enqueue_scripts() {
   wp_enqueue_script('module', get_template_directory_uri().'/assets/main-B7oO6B-m.js', array(), false, false);
 }
 add_action('wp_enqueue_scripts', 'st_enqueue_scripts');
+
+/*************************************************
+ 記事contentのpタグ削除
+ ***************/
+remove_filter('the_title', 'wpautop'); 
+remove_filter('the_content', 'wpautop'); 
