@@ -97,7 +97,7 @@
         スタッフ募集についてのお問い合わせは以下ページよりお願いいたします。応募希望の場合はお問い合わせ内容記入欄にその旨ご記載ください。内容を確認後、弊社担当より折り返しご連絡いたします。
       </div>
       <div class="d-grid d-md-flex justify-content-md-center inquireBtn">
-        <a href="inquires.html" class="btn btn-primary py-3 col-md-5" type="submit">お問い合わせはこちら</a>
+        <a href="/inquires" class="btn btn-primary py-3 col-md-5" type="submit">お問い合わせはこちら</a>
       </div>
     </div>
     <div class="col-md-1"></div>

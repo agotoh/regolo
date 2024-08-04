@@ -202,7 +202,7 @@
             住まいに関するあらゆるご相談、引越しの際のお掃除、設備交換、メンテナンス、部分・全面リフォームのご相談など、ひとまずお気軽にお問い合わせください。
           </div>
           <div class="d-grid d-md-flex justify-content-md-center mt-3">
-            <a href="inquires.html" class="btn btn-primary py-3 col-md-5" type="submit">お問い合わせはこちら</a>
+            <a href="/inquires" class="btn btn-primary py-3 col-md-5" type="submit">お問い合わせはこちら</a>
           </div>
           <div class="indexInquires__birdImgContaier">
             <img class="indexInquires__birdImgPc d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/illust_bird4-C29D7HLC.png">
