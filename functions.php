@@ -19,7 +19,20 @@ function st_enqueue_scripts() {
 add_action('wp_enqueue_scripts', 'st_enqueue_scripts');
 
 /*************************************************
- 記事contentのpタグ削除
- ***************/
+記事contentのpタグ削除
+***************/
 remove_filter('the_title', 'wpautop'); 
 remove_filter('the_content', 'wpautop'); 
+
+/*************************************************
+contact form 7 のワーニング解除
+***************/
+add_filter( 'wpcf7_validate_configuration', '__return_false' );
+
+/*************************************************
+contact form 7 でassetパスを使う
+***************/
+function contact_images_url_shortcode() {
+  return get_template_directory_uri() . '/assets';
+}
+wpcf7_add_form_tag('indicate_images_url', 'contact_images_url_shortcode' );
