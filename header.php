@@ -37,16 +37,16 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1">
                 <li class="nav-item">
-                  <a class="nav-link text-center active" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link text-center active" aria-current="page" href="/">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-center" href="./staff.html">スタッフ募集</a>
+                  <a class="nav-link text-center" href="/staff">スタッフ募集</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-center" href="./overview.html">会社概要</a>
+                  <a class="nav-link text-center" href="/overview">会社概要</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-center" href="./inquires.html">お問い合わせ</a>
+                  <a class="nav-link text-center" href="/inquires">お問い合わせ</a>
                 </li>
               </ul>
             </div>

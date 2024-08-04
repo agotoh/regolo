@@ -2,7 +2,7 @@
   <div class="container-xxl footerContentsContainer">
     <div class="row">
       <div class="col-md-6">
-        <a class="footerLogo" href="./index.html"><img src="<?php echo get_template_directory_uri();?>/assets/jp_logo_yoko_white-h-w6PNhZ.svg" alt="Logo"
+        <a class="footerLogo" href="/"><img src="<?php echo get_template_directory_uri();?>/assets/jp_logo_yoko_white-h-w6PNhZ.svg" alt="Logo"
             height="56" class="d-inline-block align-text-top"></a>
       </div>
       <div class="col-md-6 d-none d-md-flex justify-content-end">
@@ -21,16 +21,16 @@
     </div>
     <ul class="nav d-flex flex-column flex-md-row justify-content-md-center footerMenuContainer mt-4 mb-4">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+        <a class="nav-link active" aria-current="page" href="/index">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./staff.html">スタッフ募集</a>
+        <a class="nav-link" href="/staff">スタッフ募集</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./overview.html">会社概要</a>
+        <a class="nav-link" href="/overview">会社概要</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">お問い合わせ</a>
+        <a class="nav-link" href="/inquire">お問い合わせ</a>
       </li>
     </ul>
     <div class="d-flex justify-content-center d-md-none py-4">
@@ -48,5 +48,4 @@
 </div>
 <?php wp_footer(); ?>
 </body>
-
 </html>
