@@ -21,7 +21,7 @@
     </div>
     <ul class="nav d-flex flex-column flex-md-row justify-content-md-center footerMenuContainer mt-4 mb-4">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/index">HOME</a>
+        <a class="nav-link" aria-current="page" href="/index">HOME</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/staff">スタッフ募集</a>
