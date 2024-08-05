@@ -2,3 +2,19 @@
     margin-bottom: 0;
     display: contents;
 }
+.wpcf7 form.sent .wpcf7-response-output {
+  text-align: center !important;
+  border: none !important;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+  text-align: center !important;
+  border: none !important;
+  color: #ff0000;
+
+}
+.wpcf7-response-output {
+  text-align: center !important;
+}
+.fw-medium {
+  white-space: nowrap;
+}
