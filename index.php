@@ -2,7 +2,7 @@
 <div class="container-fluid eyeCatchArea d-flex justify-content-center mx-0 px-0">
       <div class="d-flex justify-content-center eyeCatchImageContainer">
         <img class="pcKeyVisualImage img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri();?>/assets/pc_kv-CD-tBp6W.png" alt="キービジュアル">
-        <img class="spKeyVisualImage img-fluid d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/sp_kv-LbL-2sol.png" alt="キービジュアル">
+        <img class="spKeyVisualImage img-fluid d-block d-md-none" src="<?php echo get_template_directory_uri();?>/assets/sp_kv-47KFpB-9.png" alt="キービジュアル">
       </div>
     </div>
     <div class="container-fluid eyeCatchMarginContainer"></div>

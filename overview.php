@@ -35,39 +35,39 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row" class="fw-medium">社名</th>
+                <th scope="row" class="fw-medium" style="white-space: nowrap;">社名</th>
                 <td>リゴロ株式会社</td>
               </tr>
               <tr>
-                <th scope="row" class="fw-medium">英語表記</th>
+                <th scope="row" class="fw-medium" style="white-space: nowrap;">英語表記</th>
                 <td>REGOLO</td>
               </tr>
               <tr>
-                <th scope="row" class="fw-medium">代表者名</th>
+                <th scope="row" class="fw-medium" style="white-space: nowrap;">代表者名</th>
                 <td>森屋吾郎</td>
               </tr>
               <!-- <tr>
-                    <th scope="row" class="fw-medium">会社電話番号</th>
+                    <th scope="row" class="fw-medium" style="white-space: nowrap;">会社電話番号</th>
                     <td>03-0000-0000</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="fw-medium">会社住所</th>
+                    <th scope="row" class="fw-medium" style="white-space: nowrap;">会社住所</th>
                     <td>〒157-0067  東京都世田谷区喜多見7−8−23 Heim Yuri #1</td>
                   </tr> -->
               <tr>
-                <th scope="row" class="fw-medium">設立日</th>
+                <th scope="row" class="fw-medium" style="white-space: nowrap;">設立日</th>
                 <td>2024年8月1日</td>
               </tr>
               <tr>
-                <td class="fw-medium">営業時間</td>
+                <td class="fw-medium" style="white-space: nowrap;">営業時間</td>
                 <td>9:00~17:00　 (定休日：土日祝)</td>
               </tr>
               <tr>
-                <td class="fw-medium">事業内容</td>
+                <td class="fw-medium" style="white-space: nowrap;">事業内容</td>
                 <td>原状回復/リフォーム/メンテナンス/外装/店舗内装工事/水回り工事/漏水調査/断熱工事など</td>
               </tr>
               <tr>
-                <td class="fw-medium">事業エリア</td>
+                <td class="fw-medium" style="white-space: nowrap;">事業エリア</td>
                 <td>関東エリア、その他ご相談に応じて</td>
               </tr>
             </tbody>
